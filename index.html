@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="IMGs/favicon.ico">
+</head>
+
+<body>
+<div class="links">
+  <p class="include">#include <span class="link">&lt<span><a href="index.html">home</a></span>&gt <span class="comment">// About</span></span></p>
+  <p class="include">#include <span class="link">&lt<span><a href="projects.html">projects</a></span>&gt <span class="comment">// Take a look at my projects</span></span></p>
+  <p class="include">#include <span class="link">&lt<span><a href="#Contact">contact</a></span>&gt <span class="comment">// Contact me!</span></span></p>
+  <p class="include">#include <span class="link">&lt<span>string</span>&gt <span class="comment">// STL</span></span></p>
+  <p class="include">#include <span class="link">&lt<span>iostream</span>&gt <span class="comment">// STL</span></span></p>
+  <p class="include">#include <span class="link">&lt<span>map</span>&gt <span class="comment">// STL</span></span></p><br>
+</div>
+<p><span class="include">using namespace</span> std;</p>
+<br>
+<p><span class="datatypes">typdef struct developer</span>{<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;string location;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;map&ltjob, year&gt jobs;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;map&ltskill, thoughts&gt skills;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;map&ltyear, program&gt education;<br>
+}computer_engineer;</p>
+<br>
+<p class="datatypes">computer_engineer spencer_beer<span>;</span></p>
+<br>
+<p class="comment">// Where am I located?</p>
+<p class="datatypes">spencer_beer<span>.</span>location <span>=</span> <span class="strings">"Fort Collins, Colorado"</span><span>;</span></p>
+<br>
+<p class="comment">// Where have I worked?</p>
+<p class="datatypes">spencer_beer<span>.</span>jobs<span class="brackets">[<span class="strings">"Engineering Technical Services"</span>]</span> <span>=</span> <span class="brackets">(<span class="strings">IT</span>)</span><span class="brackets">(<span class="strings">2022 - now</span>)</span><span>;</span><br>
+spencer_beer<span>.</span>jobs<span class="brackets">[<span class="strings">"Engineering Success Center"</span>]</span> <span>=</span> <span class="brackets">(<span class="strings">Front Desk Attendant</span>)</span><span class="brackets">(<span class="strings">2022</span>)</span><span>;</span><br>
+spencer_beer<span>.</span>jobs<span class="brackets">[<span class="strings">"UPS"</span>]</span> <span>=</span> <span class="brackets">(<span class="strings">Driver Assistant</span>)</span><span class="brackets">(<span class="strings">2021</span>)</span><span>;</span><br>
+spencer_beer<span>.</span>jobs<span class="brackets">[<span class="strings">"Bagel Stop"</span>]</span> <span>=</span> <span class="brackets">(<span class="strings">Lead Cook</span></span>)</span><span class="brackets">(<span class="strings">2019 - 2020</span>)</span><span>;</span><br>
+spencer_beer<span>.</span>jobs<span class="brackets">[<span class="strings">"American Design and Landscape"</span>]</span> <span>=</span> <span class="brackets">(<span class="strings">Crew Member</span>)</span><span class="brackets">(<span class="strings">2018</span>)</span><span>;</span><br>
+spencer_beer<span>.</span>jobs<span class="brackets">[<span class="strings">"Culver's"</span>]</span> <span>=</span> <span class="brackets">(<span class="strings">Team Trainer</span>)</span><span class="brackets">(<span class="strings">2017 - 2018</span>)</span><span>;</span><br>
+</p>
+<br>
+<p class="comment">// What skills do I have?</p>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Java"</span>]</span> <span>=</span> <span class="strings">"It's okay ¯\_(ツ)_/¯"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"JavaScript"</span>]</span> <span>=</span> <span class="strings">"Love it"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"C"</span>]</span> <span>=</span> <span class="strings">"Good stuff¯"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"C++"</span>]</span> <span>=</span> <span class="strings">"Great stuff"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Python"</span>]</span> <span>=</span> <span class="strings">"Efficient"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"MATLAB"</span>]</span> <span>=</span> <span class="strings">"Matricies are fun"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"ARM Assembly"</span>]</span> <span>=</span> <span class="strings">"Closest to machine code I've gotten"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"HTML"</span>]</span> <span>=</span> <span class="strings">"Easy"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"CSS"</span>]</span> <span>=</span> <span class="strings">"Stylish"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Verilog"</span>]</span> <span>=</span> <span class="strings">"Logic design is neat"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"PowerAutomate"</span>]</span> <span>=</span> <span class="strings">"Automate easily"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Excel"</span>]</span> <span>=</span> <span class="strings">"Stats helper"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Word"</span>]</span> <span>=</span> <span class="strings">"Favorite document tool"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"PowerPoint"</span>]</span> <span>=</span> <span class="strings">"Favorite presentation tool"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"PowerApps"</span>]</span> <span>=</span> <span class="strings">"Easy application software"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Visual Studio Code"</span>]</span> <span>=</span> <span class="strings">"Best text editor"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Atom"</span>]</span> <span>=</span> <span class="strings">"User friendly and simple"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Vim"</span>]</span> <span>=</span> <span class="strings">"Best terminal editor"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Notepad++"</span>]</span> <span>=</span> <span class="strings">"First text editor I used"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Quartus Prime"</span>]</span> <span>=</span> <span class="strings">"Verilog and logic level software"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Kiel uVision5"</span>]</span> <span>=</span> <span class="strings">"ARM Assembly software"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Cadence"</span>]</span> <span>=</span> <span class="strings">"Linux version of Quartus"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Soldering"</span>]</span> <span>=</span> <span class="strings">"Hot stuff"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"Breadboard"</span>]</span> <span>=</span> <span class="strings">"Made my first voltage adjuster"</span><span>;</span><br>
+<p class="datatypes">spencer_beer<span>.</span>skills<span class="brackets">[<span class="strings">"3D Printing"</span>]</span> <span>=</span> <span class="strings">"Fusion 360!"</span><span>;</span><br>
+</p>
+<br>
+<br>
+<a id="Contact"></a>
+<p class="datatypes">cout <span><<</span> <span class="link"><a href="https://www.linkedin.com/in/spencerbeer/">LinkedIn</a></span><span>;</span></p>
+<p class="datatypes">cout <span><<</span> <span class="link"><a href="https://www.facebook.com/spencer.beer.35">Facebook</a></span><span>;</span></p>
+<p class="datatypes">cout <span><<</span> <span class="link"><a href="https://github.com/Spenc3rB">GitHub</a></span><span>;</span></p><br>
+<form action="mailto:spencer@beerfamily.us" method="post" class="contact-form" enctype="text/plain">
+  <div class="contact-form">
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" id="name" required>
+  </div><br>
+  <div class="contact-form">
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" required>
+  </div><br>
+  <div class="contact-form">
+    <label for="message">Message:</label><br>
+    <textarea name="message" rows="8" cols="40"></textarea>
+  </div><br>
+  <div class="contact-form">
+    <input type="submit" name="submit">
+  </div>
+</form>
+<br>
+<p class="comment">// last updated 09/25/2022 by Spencer Beer</p>
+</body>
+
+</html>

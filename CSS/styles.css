@@ -1,0 +1,86 @@
+body {
+  font-family: monospace;
+  background-color: #180A0A;
+}
+
+p {
+  margin: 0;
+  color: white;
+}
+
+.contact-me {
+  color: white;
+}
+
+.include {
+  color: #F96666;
+}
+
+img {
+  padding-bottom: 10px;
+  opacity: 1;
+  position: absolute;
+  left: 200px;
+}
+
+textarea {
+  color: #42855B;
+  background-color: #180A0A;
+  border-style: inset;
+  border-width: 1px;
+}
+
+input {
+  color: #42855B;
+  background-color: #180A0A;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.contact-form input[type=submit]{
+  border-color: white;
+  border-style: inset;
+  color: white;
+}
+
+.contact-form input[type=submit]:hover{
+  background-color: #42855B;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+.link {
+  color: #CC9C75;
+}
+.link a {
+  color: #CC9C75;
+}
+.link a:hover {
+  color: #F96666;
+}
+
+.comment {
+  color: #42855B;
+}
+
+.datatypes {
+  color: #9FB4FF;
+}
+
+.datatypes span {
+  color: white;
+}
+
+.datatypes .strings{
+  color: #CC9C75;
+}
+
+.datatypes .brackets {
+  color: yellow;
+}
+
+.contact-form {
+  color: white;
+}
